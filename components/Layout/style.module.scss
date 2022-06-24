@@ -1,0 +1,15 @@
+.layout {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  header, footer {
+    flex: 0 0 50px
+  }
+
+  main {
+    flex: 1 1 auto;
+    padding: 10px;
+  }
+}

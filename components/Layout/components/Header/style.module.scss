@@ -1,0 +1,13 @@
+.header {
+  background: rgba(34,40,49,1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #EEEEEE;
+
+  nav {
+    > a {
+      margin: 0 10px;
+    }
+  }
+}
