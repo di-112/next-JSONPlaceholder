@@ -5,13 +5,21 @@ import Link from "next/link";
 
 const Header:FC = () => {
   return (<header className={styles.header}>
-        <div className={styles.logo}/>
+          <Image
+              className={styles.logo}
+              src={'/logo.png'}
+              height={36}
+              width={36}
+          />
     <nav>
       <Link href={'/'}>
         <a>Главная</a>
       </Link>
       <Link href={'/users'}>
         <a>Пользователи</a>
+      </Link>
+      <Link href={'/photos'}>
+        <a>Фотографии</a>
       </Link>
     </nav>
     </header>);
